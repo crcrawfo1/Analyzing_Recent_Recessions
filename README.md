@@ -1,10 +1,22 @@
-# The impact of the 2008 recession and the COVID recession on the industries
+# The Impact of the 2008 Recession and the COVID Recession on Five Industries
 
 ## Project Proposal
-As you know, all stocks are affected by the 2008 recession and the COVID recession.We decided to took a closer look at recessions to see how different industries and portfolios of stocks performed throughout these recessions. We analyzed by choosing 5 stocks from each industry. 
-We have compared the 2008 recession and the recent COVID recession, try to find out how they performed both recessions various portfolios based in 5 different industries perform both prior to and during their respective economic downturns.
-Also we determined the risk and volatility associated with each industry portfolio and how correlated were the industry portfolios to the S&P 500.
+Given the tumultuous economic year we are closing out, we took a closer look at recessions to see how different industries and portfolios of stocks performed throughout these recessions. We compared 5 different portfolios of stocks comprised from 5 different industry verticals to see how they were impacted in both the 2008 recession and COVID recession. The analysis also included how the individual portfolios could have been weighted to beat the market. 
 
+Our goal was to answer these questions:
+Comparing the 2008 recession and the recent COVID recession, how did various portfolios based in 5 different industries perform both prior to and during their respective economic downturns?
+How did the industries perform in comparison to the market as a whole both prior to and during the recessions?
+What were the optimal portfolio weights prior to each recession to reduce downside risk?
+Determine the risk and volatility associated with each industry portfolio and how correlated were the industry portfolios to the S&P 500?
+
+Date Ranges for Data Pulls:
+- Prior to 2008 (7/1/2005-7/1/2007)
+- During 2008 Recession (7/1/2007-7/1/2009)
+- Prior to COVID (11/1/2017-11/1/2019)
+- During COVID Recession (11/1/2019-11/1/2020)
+
+
+Industry Portfolios:
 - Entertainment: Imax Corporation, Disney, Netflix, Comcast, Sony
 - Fast Food: McDonald’s, Wendy’s, Yum! Brands Inc., Domino’s Pizza, Jack in the Box Inc.
 - Tech: Amazon, Apple, Microsoft, Google, Intel Corp.
@@ -13,8 +25,8 @@ Also we determined the risk and volatility associated with each industry portfol
 
 
 ## Finding Data & Data Cleanup & Analysis
-Data was originally pulled using  Yahoo Finance by utilizing Pandas DataReader to pull the adjusted close data.
-In order to better understand the impact of the 2008 recession and the COVID recession on the industries, we calculated Sharpe Ratios, Correlations, Rolling Averages , Variance, Covariance, Beta for leading up to the 2008 recession, during the 2008 recession, leading up to the COVID recession and during the COVID recession from the data.
+Data was originally pulled using Alpaca, however, we found out that Alpaca's data only goes back as far as January 1st, 2008. We then pivoted to use Yahoo Finance via Pandas DataReader to pull the adjusted close data.
+In order to better understand the impact of the 2008 recession and the COVID recession on the industries, we calculated Sharpe Ratios, Correlations, Rolling Averages, Variance, Covariance, and Beta for the four date ranges previously specified.
 
 Findings about our studies are as follows.
 
