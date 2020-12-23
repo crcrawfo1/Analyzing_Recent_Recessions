@@ -1,4 +1,10 @@
 # The Impact of the 2008 Recession and the COVID Recession on Five Industries
+### Coded by CONNOR CRAWFORD, HENNA SINGH, MEAGAN RATHJEN, JOHN GASCHLER, OGUZHAN ACIL
+
+## How the code works:
+The only code you will have to run in order to produce our dashboard is the jupyter notebook called 'Plots'. This file draws on CSV's that were created by our two DataCleaner files. If you care to see how the CSV's were created, feel free to peruse those notebooks. The weight optimization notebook details how we were able to decide on the optimal weights for each portfolio in each time period. You can see code that we had originally used but became redundant in our 'Old' subfolder within the 'notebooks' folder. The 'Data' folder contains the csvs that the DataCleaner notebooks produced. The Photos folder contains pngs of the plots contained within the dashboard.
+
+# The Project Itself:
 
 ## Project Proposal
 Given the tumultuous economic year we are closing out, we took a closer look at recessions to see how different industries and portfolios of stocks performed throughout these recessions. We compared 5 different portfolios of stocks comprised from 5 different industry verticals to see how they were impacted in both the 2008 recession and COVID recession. The analysis also included how the individual portfolios could have been weighted to beat the market. 
