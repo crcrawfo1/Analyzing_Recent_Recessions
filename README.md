@@ -1,5 +1,5 @@
 # The Impact of the 2008 Recession and the COVID Recession on Five Industries
-### Coded by CONNOR CRAWFORD, HENNA SINGH, MEAGAN RATHJEN, JOHN GASCHLER, OGUZHAN ACIL
+### Coded by Connor Crawford, Henna Singh, Meagan Rathjen, John Gaschler, Oguzhan Acil
 
 ## How the code works:
 The only code you will have to run in order to produce our dashboard is the jupyter notebook called 'Plots'. This file draws on CSV's that were created by our two DataCleaner files. If you care to see how the CSV's were created, feel free to peruse those notebooks. The weight optimization notebook details how we were able to decide on the optimal weights for each portfolio in each time period. You can see code that we had originally used but became redundant in our 'Old' subfolder within the 'notebooks' folder. The 'Data' folder contains the csvs that the DataCleaner notebooks produced. The Photos folder contains pngs of the plots contained within the dashboard.
